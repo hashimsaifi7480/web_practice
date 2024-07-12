@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      p {
+        font-family: Arial;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: 200px 200px 200px;
+        column-gap: 20px;
+      }
+      .profile {
+        width: 200px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 5);
+        vertical-align: top;
+      }
+      .profile > img {
+        width: 200px;
+        height: 200px;
+        object-fit: contain;
+      }
+      .profile > p {
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 10px;
+        margin-bottom: 5px;
+      }
+      .mutual {
+        display: grid;
+        grid-template-columns: 35px 1fr;
+        align-items: center;
+        margin-left: 8px;
+        margin-bottom: 10px;
+      }
+      .mutual > img {
+        width: 20px;
+        display: grid;
+        object-fit: cover;
+        border-radius: 50%;
+        vertical-align: middle;
+      }
+      .mutual > p {
+        font-size: 15px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="grid">
+      <div class="profile">
+        <img src="img1.jpg" />
+        <p>Hashim</p>
+      </div>
+
+      <div class="mutual">
+        <img src="HASHIM PHOTO (1).jpg" />
+        <p>1 Mutual Friend</p>
+      </div>
+    </div>
+    <button class="add-frnd">Add Friend</button>
+
+  </body>
+</html>

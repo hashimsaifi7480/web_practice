@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .amount{
+        font-size: 50px;
+        font-family: Arial;
+        margin-bottom: 5px;
+      }
+      .usd{
+        font-size: 20px;
+        font-family: Arial;
+      }
+      .profit{
+        color: rgb(48, 168, 0);
+        font-size: 20px;
+        font-family: Arial; 
+      }
+      .desc{
+        font-size: 20px;
+        font-family: Arial; 
+      }
+      .loss{
+        color: red;
+        font-size: 20px;
+        font-family: Arial; 
+      }
+      .sale{
+        background-color: rgb(12, 141, 34);
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding-left: 25; padding-right: 25;
+        padding-top: 5px; padding-bottom: 5px;
+        font-size: 20px;
+        font-family: Arial;
+        margin: 20px; 
+        transition: opacity 0.5s;
+      }
+      .sale:hover { opacity: 0.8; }
+      .sale:active { background-color: rgb(6, 87, 20);}
+    
+      .buy{
+        background-color: rgb(10, 150, 150);
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding-left: 25; padding-right: 25;
+        padding-top: 5px; padding-bottom: 5px;
+        font-size: 20px;
+        font-family: Arial;
+        margin: 20px; 
+        transition: opacity 0.5s;
+      }
+      .buy:hover { opacity: 0.8; }
+      .buy:active { background-color: rgb(3, 71, 71);}
+    
+    </style>
+  </head>
+
+  <body>
+    <p class="amount">
+      1&comma;049&period;61 <span class="usd">USD</span>
+    </p>
+    
+    <p class="profit">
+      &plus;18&period;05&lpar;1&period;75&rpar; today
+    </p>
+    
+    <p class="desc">
+      After hours 1&period;048&period;00
+      <span class="loss"> &minus;1&period;61&lpar;0&period;15&percnt;&rpar;</span>
+    </p>
+    
+    <button class="sale">
+      Sale
+    </button>
+    
+    <button class="buy">
+      Buy
+    </button>
+  </body>
+</html>

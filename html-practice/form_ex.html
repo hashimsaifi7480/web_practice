@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      * {
+        font-family: arial;
+      }
+      body {
+        gap: 10px;
+      }
+      p {
+        gap: 9px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px auto;
+      }
+      input {
+        font-size: 25px;
+        width: 30%;
+        height: 30px;
+        border-radius: 2px;
+      }
+      .email {
+        width: 100%;
+      }
+      .email1 {
+        width: 50%;
+      }
+      button {
+        display: block;
+        width: 60%;
+        font-size: 25px;
+        margin: 0 auto;
+        background-color: rgb(59, 185, 216);
+        color:white;
+        border: none;
+        border-radius: 10px;
+      }
+      button:hover{
+        opacity: 0.9;
+      }
+      button:active{
+        border:1px solid;
+        background-color:white;
+        color:rgb(59, 185, 216);
+      }
+    </style>
+  </head>
+  <body>
+    <p class="first">
+      <input type="text" placeholder="First Name" />
+      <input type="text" placeholder="Last Name" />
+    </p>
+    <p class="email">
+      <input class="email1" type="text" placeholder="Email" />
+    </p>
+    <button>Sign Up</button>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .words {
+  position: relative;
+  animation: 20s linear infinite;
+  margin: 0;
+}
+@keyframes move-words {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: -100%;
+  }
+}
+      .square{
+        object-fit: contain;
+        width: 300px;
+        height: 300px;
+        background-color: brown;
+        border: 0 auto;
+        margin-bottom: 10px;
+      }
+      .circle{ 
+        display: flex;
+        width: 300px;
+        height: 300px;
+        background-color: rgb(86, 194, 15);
+        border: 0 auto;
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="words">Buzz...Woody...Rex...Bo Beep...Forky...Hamm...Slinky...Sid!</h1>
+    <div class="square">    </div>
+    <div class="circle">    </div>
+  </body>
+</html>
